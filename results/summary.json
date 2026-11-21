@@ -1,0 +1,204 @@
+{
+  "ratings": 32000204,
+  "films": 84432,
+  "users": 200948,
+  "reference_films": 4397,
+  "median_ratings_per_film": 5.0,
+  "share_films_5_or_fewer": 0.5214492135683153,
+  "share_films_1": 0.22037852946750047,
+  "sigma": 0.9578266995892017,
+  "all_films": {
+    "tau_flat": 0.5001532752719778,
+    "kappa_flat": 3.667479065733802
+  },
+  "reference": {
+    "tau_flat": 0.4692051959470339,
+    "kappa_flat": 4.167237496435309,
+    "tau_genre": 0.38401290743341215,
+    "kappa_genre": 6.221315606518964
+  },
+  "thin_rmse": {
+    "1": {
+      "raw": 0.9665,
+      "imdb m=25": 0.4533,
+      "pooled (flat)": 0.4236,
+      "pooled (genre)": 0.361,
+      "pooled (genre), data-shaped prior": 0.3628
+    },
+    "2": {
+      "raw": 0.6844,
+      "imdb m=25": 0.4382,
+      "pooled (flat)": 0.3893,
+      "pooled (genre)": 0.339,
+      "pooled (genre), data-shaped prior": 0.3407
+    },
+    "3": {
+      "raw": 0.5558,
+      "imdb m=25": 0.4235,
+      "pooled (flat)": 0.3591,
+      "pooled (genre)": 0.319,
+      "pooled (genre), data-shaped prior": 0.32
+    },
+    "5": {
+      "raw": 0.4317,
+      "imdb m=25": 0.3981,
+      "pooled (flat)": 0.3184,
+      "pooled (genre)": 0.2893,
+      "pooled (genre), data-shaped prior": 0.2901
+    },
+    "10": {
+      "raw": 0.3072,
+      "imdb m=25": 0.3467,
+      "pooled (flat)": 0.2572,
+      "pooled (genre)": 0.2415,
+      "pooled (genre), data-shaped prior": 0.2419
+    },
+    "20": {
+      "raw": 0.2165,
+      "imdb m=25": 0.2783,
+      "pooled (flat)": 0.1968,
+      "pooled (genre)": 0.1893,
+      "pooled (genre), data-shaped prior": 0.1895
+    },
+    "50": {
+      "raw": 0.136,
+      "imdb m=25": 0.1805,
+      "pooled (flat)": 0.1305,
+      "pooled (genre)": 0.1284,
+      "pooled (genre), data-shaped prior": 0.1284
+    },
+    "100": {
+      "raw": 0.0955,
+      "imdb m=25": 0.121,
+      "pooled (flat)": 0.0935,
+      "pooled (genre)": 0.0928,
+      "pooled (genre), data-shaped prior": 0.0929
+    }
+  },
+  "ranking_top20": {
+    "raw average": {
+      "mean_shown": 5.0,
+      "mean_truth": 3.6554,
+      "gap": 1.3446,
+      "share_best10": 25.5,
+      "share_below_median": 27.0,
+      "worst_truth": 2.7171,
+      "median_ratings_shown": 1.0
+    },
+    "raw average, 20+ ratings": {
+      "mean_shown": 4.2672,
+      "mean_truth": 4.1315,
+      "gap": 0.1356,
+      "share_best10": 92.5,
+      "share_below_median": 0.0,
+      "worst_truth": 3.8467,
+      "median_ratings_shown": 50.35
+    },
+    "IMDb formula, m = 25": {
+      "mean_shown": 4.1185,
+      "mean_truth": 4.1459,
+      "gap": -0.0274,
+      "share_best10": 100.0,
+      "share_below_median": 0.0,
+      "worst_truth": 4.0456,
+      "median_ratings_shown": 841.65
+    },
+    "IMDb formula, m = 100": {
+      "mean_shown": 4.0573,
+      "mean_truth": 4.1108,
+      "gap": -0.0535,
+      "share_best10": 100.0,
+      "share_below_median": 0.0,
+      "worst_truth": 3.9984,
+      "median_ratings_shown": 1756.725
+    },
+    "pooled (flat)": {
+      "mean_shown": 4.2324,
+      "mean_truth": 4.139,
+      "gap": 0.0934,
+      "share_best10": 92.5,
+      "share_below_median": 0.0,
+      "worst_truth": 3.8347,
+      "median_ratings_shown": 40.8
+    },
+    "pooled (flat), lower bound": {
+      "mean_shown": 4.1127,
+      "mean_truth": 4.1573,
+      "gap": -0.0447,
+      "share_best10": 99.5,
+      "share_below_median": 0.0,
+      "worst_truth": 4.0287,
+      "median_ratings_shown": 638.925
+    },
+    "pooled (genre)": {
+      "mean_shown": 4.3055,
+      "mean_truth": 4.097,
+      "gap": 0.2085,
+      "share_best10": 82.75,
+      "share_below_median": 0.0,
+      "worst_truth": 3.7379,
+      "median_ratings_shown": 7.8
+    },
+    "pooled (genre), lower bound": {
+      "mean_shown": 4.1202,
+      "mean_truth": 4.1558,
+      "gap": -0.0355,
+      "share_best10": 97.25,
+      "share_below_median": 0.0,
+      "worst_truth": 3.973,
+      "median_ratings_shown": 530.0
+    }
+  },
+  "raters": {
+    "tau_user": 0.4385315259067717,
+    "tau_film": 0.48209185904732915,
+    "sigma": 0.8504622104704962,
+    "iterations": 14,
+    "corr_raw_vs_adjusted_truth": 0.9924227180510634,
+    "sd_raw_minus_adjusted_truth": 0.05967697821929567,
+    "iterations_fold0": 18,
+    "sigma_raw_fold0": 0.9499720233511941,
+    "sigma_adjusted_fold0": 0.8433201330511507,
+    "iterations_fold1": 18,
+    "sigma_raw_fold1": 0.9557284040524108,
+    "sigma_adjusted_fold1": 0.8477405698701961
+  },
+  "raters_rmse": {
+    "1": {
+      "pooled (genre)": 0.383,
+      "pooled (genre), rater-adjusted": 0.354,
+      "raw average": 0.984
+    },
+    "2": {
+      "pooled (genre)": 0.365,
+      "pooled (genre), rater-adjusted": 0.329,
+      "raw average": 0.703
+    },
+    "3": {
+      "pooled (genre)": 0.347,
+      "pooled (genre), rater-adjusted": 0.307,
+      "raw average": 0.575
+    },
+    "5": {
+      "pooled (genre)": 0.318,
+      "pooled (genre), rater-adjusted": 0.274,
+      "raw average": 0.453
+    },
+    "10": {
+      "pooled (genre)": 0.275,
+      "pooled (genre), rater-adjusted": 0.223,
+      "raw average": 0.334
+    },
+    "20": {
+      "pooled (genre)": 0.235,
+      "pooled (genre), rater-adjusted": 0.173,
+      "raw average": 0.26
+    },
+    "50": {
+      "pooled (genre)": 0.191,
+      "pooled (genre), rater-adjusted": 0.117,
+      "raw average": 0.198
+    }
+  },
+  "seconds": 600
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.streamlit/secrets.toml
+.DS_Store
+.ruff_cache/
+# MovieLens itself is downloaded, not stored here (see README)
+data/
